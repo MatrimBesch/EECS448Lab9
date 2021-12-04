@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src="formChecker.js"></script>
+  </head>
+  <body>
+    <form action="/~m778b860/Exercises/Lab9Exercise3/customerBackend.php" onsubmit="return validateInput()"  method="post" >
+      <input type="text" id="usernameText" name="usernameText">Username</input><br>
+      <input type="password" id="passwordText" name="passwordText">Password</input><br>
+
+      <img src="./Product1.jpg">Product1</img>
+      <p>$99.99
+      <input type="text" id="product1Qty" name="product1Qty"></input>
+      </p>
+
+      <img src="./Product2.jpg">Product2</img>
+      <p>$99.98
+      <input type="text" id="product2Qty" name="product2Qty"></input>
+      </p>
+
+      <img src="./Product3.jpg">Product3</img>
+      <p>$99.97
+      <input type="text" id="product3Qty" name="product3Qty"></input>
+      </p>
+
+
+      <p> SHIPPING </p>
+      <input type="radio" name="shipping" value="7 Days">7 days (Free)</input><br>
+      <input type="radio" name="shipping" value="3 Days">3 days ($5)</input><br>
+      <input type="radio" name="shipping" value="Express">Overnight ($50)</input><br>
+      <button type="submit" class="button">submit</button>
+    </form>
+  </body>
+</html>
